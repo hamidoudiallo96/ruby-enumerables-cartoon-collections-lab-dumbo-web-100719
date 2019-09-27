@@ -21,7 +21,7 @@ def long_planeteer_calls(array)
       status = false
     end
   end
-  return true
+  return status
 end
 
 def find_the_cheese# code an argument here
