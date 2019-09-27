@@ -19,8 +19,9 @@ def long_planeteer_calls(array)
    return status
 end
 
-def find_the_cheese(array)
+def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
+  return cheese_types.detect {|element| element == "cheese"}
 end
 
 
