@@ -15,9 +15,10 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
+  status = true
   array.each do |word|
     if word.length <= 4
-      return false
+      status = false
     end
   end
   return true
